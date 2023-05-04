@@ -1,0 +1,6 @@
+relation_name: facialexpressionrecognition
+class_name: emotion
+class_values: [Angry, Disgusted, Fear, Happy, Sad, Surprised]
+feature_data_types: [real] # If there are multiple features, add the data types here (e.g., [real, real, real])
+feature_key_format: image_feature_{0}
+label_key_format: image_label_{0}
